@@ -1,0 +1,30 @@
+# Config file
+
+name = " My Project"
+version = "1.0.0"
+website = "https://SisengAI.com"
+
+[items]
+numbers = [1, 2, 3]
+letters = ["a", "b", "c"]
+
+[item.details]
+updated = true
+author = "SisengAI"
+timestamp = 2025-02-02T08:00:00Z
+
+[database] 
+file.type = "sqlite"
+file.path = "data.db"
+
+[inline_table]
+inline = {owner = "Ricky Macharm, MScFE", location = "Oberursel, Germany"}
+
+[[table_group]]
+fruit = "pomegranate"
+
+[[table_group]]
+fruit = "apricot"
+
+[[table_group]]
+fruit = "mango"
